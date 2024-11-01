@@ -148,6 +148,9 @@ body {
   width: 100%;
   height: auto;
 }
+  .above-form-img img{
+    width: 100%;
+  }
 
 .section-main {
   background-color: #1c295a;
@@ -159,6 +162,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  align-items: center;
 }
 
 .main-right .main-right--card {
