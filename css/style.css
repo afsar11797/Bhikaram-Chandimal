@@ -10,11 +10,17 @@
   height: 50px;
 }
 .nav {
+  position: fixed;
   gap: 25px;
   padding: 1em 2em;
   display: flex;
   justify-content: space-around;
   background-color: #ffffff;
+  z-index: 1;
+
+  img{
+    width: 90px;
+  }
 }
 
 .nav .nav__link {
